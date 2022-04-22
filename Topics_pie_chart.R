@@ -1,13 +1,11 @@
-### Method extraction for the topic Nutrition ###
+### Code for a pie chart showing which topics occured how often within the ###
+### literature research ###
 
 library(readxl)
 library(tidyverse)
-#library(dplyr)
-#install.packages("scales")
-#library(scales)
 library(ggplot2)
 library(MetBrewer)
-library(viridis)
+library(RColorBrewer)
 
 #Use the excel sheet
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
@@ -19,7 +17,7 @@ Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
 #Summary of main topics
 Thesis$Main_topic_1
 
-#Use gather function to group two main topics together. I decide for this
+#Use gather function to group two main topics together.
 
 Together <- Thesis %>% 
   gather(key = "TopicPart", value = "Topics", c(Main_topic_1, Main_topic_2))
@@ -57,10 +55,10 @@ Method_Extraction <- Amount %>%
   geom_text(aes(x = 1.6, label = label),
             position = position_stack(vjust = .5),
             show.legend = FALSE) +
-  guides(fill = guide_legend(title = "The used methods for the Main topic Nutrition ")) +
+  guides(fill = guide_legend(title = "Main Topics ")) +
   coord_polar(theta = "y")+
   theme_void() +
-  scale_fill_manual(values = met.brewer("Benedictus")[1:9])
+  scale_fill_brewer(palette = "Pastel1")
 
 #Show the plot:
 Method_Extraction

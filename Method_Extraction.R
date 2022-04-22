@@ -2,12 +2,8 @@
 
 library(readxl)
 library(tidyverse)
-#library(dplyr)
-#install.packages("scales")
-#library(scales)
 library(ggplot2)
 library(MetBrewer)
-library(viridis)
 
 #Use the excel sheet
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
@@ -24,7 +20,7 @@ Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
 Thesis <- Thesis %>% 
   mutate_all(~replace(., . == "NA", NA))
 
-#Summary of the data with NA
+#Count of the Methods with NA
 n_method <- Thesis %>% 
   count(Method) 
 
@@ -49,6 +45,9 @@ Method_Extraction <- pie(n_method$n, labels = n_method$Method, main = "n Method"
 label <- paste(n_method$perc, "%")
 
 ### Pie chart with tidyverse ###
+
+cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3", "Methodological" = "plum4", "Mixed" = "lightpink2")
+
 Method_Extraction <- n_method %>% 
   ggplot(aes(x = "", y =perc, fill = Method)) +
   geom_col() +
@@ -58,7 +57,7 @@ Method_Extraction <- n_method %>%
   guides(fill = guide_legend(title = " Methods used")) +
   coord_polar(theta = "y")+
   theme_void() +
-  scale_fill_manual(values = met.brewer("Cassatt2")[1:4])
+  scale_fill_manual(values = cols)
 
 #Show the plot:
 Method_Extraction
