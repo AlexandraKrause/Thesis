@@ -21,8 +21,8 @@ Together <- Together %>%
 #Replace general (No researched country, but rather observation of topic)
 # Leave in Many (Studies observing many differnt countries)
 
-Together <- Together %>% 
-  mutate_all(~replace(., . == "General", NA))
+#Together <- Together %>% 
+#  mutate_all(~replace(., . == "General", NA))
 
 #Show the Numbers per topic
 Amount <- Together %>%
