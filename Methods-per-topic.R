@@ -3,7 +3,7 @@
 library(readxl)
 library(tidyverse)
 library(ggplot2)
-library(MetBrewer)
+#library(MetBrewer)
 
 #Use the excel sheet
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)

@@ -3,7 +3,6 @@
 library(readxl)
 library(tidyverse)
 library(ggplot2)
-library(MetBrewer)
 
 #Use the excel sheet
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
@@ -51,7 +50,7 @@ cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3", "Methodological" 
 Method_Extraction <- n_method %>% 
   ggplot(aes(x = "", y =perc, fill = Method)) +
   geom_col() +
-  geom_label(aes(label = label), color = c("white","white", "white", "white"), 
+  geom_label(aes(label = label), color = c("gray10","gray10", "gray10", "gray10"), 
          position = position_stack(vjust = 0.5),
            show.legend = FALSE) +
   guides(fill = guide_legend(title = " Methods used")) +

@@ -1,10 +1,10 @@
-### Code for a pie chart showing which topics occured how often within the ###
+### Code for a pie chart showing which topics occurred how often within the ###
 ### literature research ###
 
 library(readxl)
 library(tidyverse)
 library(ggplot2)
-library(MetBrewer)
+#library(MetBrewer)
 library(RColorBrewer)
 
 #Use the excel sheet
