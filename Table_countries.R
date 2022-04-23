@@ -35,6 +35,8 @@ Amount <- na.omit(Amount)
 Amount <- Amount %>%
   mutate(Percentage = round((n / sum(n) * 100), 0))
 
+################################################################################
+
 #Sort descending and show only top 10
 
   Amount <- Amount %>% 
@@ -46,21 +48,44 @@ Amount <- Amount %>%
   Amount <- Amount %>% 
     relocate(Top15, .before = `Together$Countries`)
   
+  
   #change names of columns
   Amount = rename(Amount, Countries = `Together$Countries`)
   Amount = rename(Amount, "Absolute number" = n)
   Amount = rename(Amount, "Top 15" = Top15)
   Amount = rename(Amount, "Percentage [%]" = Percentage)
-  
-  
-Amount_Table <-formattable(Amount, align =c("c","c","c","c","c", "c", "c", "c", "c"), 
-            list(`Indicator Name` = formatter(
-              "span", style = ~ style(color = "grey",font.weight = "bold")),
-              x ~ ifelse(x = `Top 15`, "color:red", NA)),
-            `Top 10`= color_tile(Grey11))
 
 Amount_Table <-formattable(Amount, align =c("c","c","c","c","c", "c", "c", "c", "c"), 
                            list(`Indicator Name` = formatter(
                              "span", style = ~ style(color = "grey",font.weight = "bold")),
                              `Top 15` = color_tile("grey80","grey94")))
 
+###Now the second graph###
+#Redo everything up until the Calculation of percentages 
+#(everything above the ######### line)
+
+#summarize
+Amount = rename(Amount, Countries = `Together$Countries`)
+
+Amount = rename("Kenya" =  "Africa", Amount$Countries)
+Amount = rename(Amount, "Zambia" =  "Africa")
+Amount = rename(Amount, "Uganda" =  "Africa")
+Amount = rename(Amount, "Uganda" =  "Africa")
+Amount = rename(Amount, "Ethiopia" =  "Africa")
+Amount = rename(Amount, "Ghana" =  "Africa")
+Amount = rename(Amount, "Tanzania" =  "Africa")
+Amount = rename(Amount, "Nigeria" =  "Africa")
+Amount = rename(Amount, "South Africa" =  "Africa")
+
+## Replace substring of the column in R dataframe
+
+Amount1 = gsub('Kenya','Africa',Amount$Countries)
+Amount2 = gsub('Zambia', 'Africa', Amount1)
+Amount3 = gsub('Uganda', 'Africa', Amount2)
+Amount4 = gsub('Ethiopia', 'Africa', Amount3)
+Amount5 = gsub('Ghana', 'Africa', Amount4)
+Amount6 = gsub('Tanzania', 'Africa', Amount5)
+Amount7 = gsub('Migeria', 'Africa', Amount6)
+Amount8 = gsub('South Africa', 'Africa', Amount7)
+Amount9 = gsub('Sub-Saharan Africa', 'Africa', Amount8)
+Amount9 = gsub('Mozambique', 'Africa', Amount8)

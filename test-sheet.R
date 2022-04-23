@@ -6,7 +6,7 @@ library(data.table)
 library(dplyr)
 library(formattable)
 library(tidyr)
-
+library(gdata)
 
 #Use the excel sheet
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
@@ -33,19 +33,49 @@ Together <- Together %>%
 #Replace general (No researched country, but rather observation of topic)
 #Leave in Many (Studies observing many differnt countries)
 
-Together <- Together %>% 
+Amountnew <- Together %>% 
   mutate_all(~replace(., . == "General", NA))
 
 #Now summarize all countries on the african continent...does not work.........
 
-Amountnew <- Together %>% 
-  mutate_all(~replace(., . == c('Kenya', "Zambia", "Uganda", 'Ethiopia','Ghana',
-                                'Tanzania', 'Nigeria', 'South Africa',
-                                'Sub-Saharan Africa','Mozambique',
-                                'Burkina Faso','Guinea'), 
-                      values = c('Africa', 'Africa', 'Africa', 'Africa', 'Africa',
-                                 'Africa', 'Africa', 'Africa', 'Africa', 'Africa', 
-                                 'Africa','Africa')))
+
+auto_specs_new <- mutate(Amountnew, Africa =Kenya)
+auto_specs_new <- mutate(Amountnew, Africa =Ghana)
+auto_specs_new <- mutate(Amountnew, Africa =Zambia)
+auto_specs_new <- mutate(Amountnew, Africa =Ethiopia)
+auto_specs_new <- mutate(Amountnew, Africa =Tanzania)
+auto_specs_new <- mutate(Amountnew, Africa =Nigeria)
+auto_specs_new <- mutate(Amountnew, Africa =South Africa)
+auto_specs_new <- mutate(Amountnew, Africa =Sub-Saharan Africa)
+auto_specs_new <- mutate(Amountnew, Africa =Mozambique)
+auto_specs_new <- mutate(Amountnew, Africa =Guinea)
+auto_specs_new <- mutate(Amountnew, Africa =Burkina Faso)
+auto_specs_new <- mutate(Amountnew, Africa =Malawi)
+
+
+Amountnew %>% 
+  rename(
+    A = "Kenya",
+  )
+
+weeds <- rename(Amountnew$Countries, A = "Kenya")
+
+rename_with(.data, .fn, .cols = everything(), ...)
+
+rename_with(Amountnew, toupper, if (Amountnew$Countries = "Kenya") {
+  "Kenya" == "Africa"}, .cols = everything())
+
+if (Amountnew$Countries = "Kenya") {
+  Amountnew[Africa == Kenya]
+  }
+
+rename(Amountnew$Countries, "Africa" = "Malawi")
+
+Amountnew[Africa == Malawi]
+Amountnew[Africa == Uganda]
+
+
+rename.vars(data, from="Malawi", to="Africa", info=TRUE)
 
 #show summary
 Amountnew$Countries
