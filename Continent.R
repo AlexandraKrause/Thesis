@@ -60,17 +60,29 @@ Amountnew <- Amountnew %>%
 
 #exclude the two comparative, general gender science studies that do not belong 
 #in the modelfrom 
-Amountnew <- Amountnew %>% 
-  mutate_all(~replace(., . == "Mexico", NA))
 
-Amountnew <- Amountnew %>% 
-  mutate_all(~replace(., . == "Canada", NA))
+#Amountnew <- Amountnew %>% 
+#  mutate_all(~replace(., . == "Mexico", NA))
 
-Amountnew <- Amountnew %>% 
-  mutate_all(~replace(., . == "New England", NA))
+#Amountnew <- Amountnew %>% 
+#  mutate_all(~replace(., . == "Canada", NA))
 
-Amountnew <- Amountnew %>% 
-  mutate_all(~replace(., . == "UK", NA))
+#Amountnew <- Amountnew %>% 
+#  mutate_all(~replace(., . == "New England", NA))
+
+#Amountnew <- Amountnew %>% 
+#  mutate_all(~replace(., . == "UK", NA))
+
+
+#or show them as the category "other"
+
+other_countries <- c("UK|New England|Canada|Mexico")
+
+Amountnew <- Amountnew %>%
+  mutate(Countries = str_replace_all(string = Countries,
+                                     pattern = other_countries,
+                                     replacement = "Other"))
+
 
 #Replace general (No researched country, but rather observation of topic)
 #Leave in Many (Studies observing many different countries)
@@ -130,7 +142,7 @@ Amount_Table
 label <- paste(Amountnew$`Percentage [%]`, "%")
 
 cols <- c("Africa" = "thistle3", "Asia" = "mistyrose2", "America" = "lavender",
-          "Different research areas" = "wheat1")
+          "Different research areas" = "wheat1", "Other" = "mistyrose1")
 Amount_Pie <- Amountnew %>% 
   ggplot(aes(x = "", y =Amountnew$`Percentage [%]`, fill = Continents)) +
   geom_col() +
@@ -142,6 +154,6 @@ Amount_Pie <- Amountnew %>%
   coord_polar(theta = "y")+
   theme_void()+
   scale_fill_manual(values = cols)
-#other nice colors: cornsilk1 und mystyrose1
+#other nice colors: cornsilk1 und mistyrose1
 #Show the plot:
 Amount_Pie
