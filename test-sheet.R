@@ -7,75 +7,76 @@ library(dplyr)
 library(formattable)
 library(tidyr)
 library(gdata)
+library(tidyfst)
 
 #Use the excel sheet
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
 
-Together <- Thesis %>% 
-  gather(key = "Country_Number", value = "Countries", c(Country_1, Country_2, Country_3, Country_4, Country_5))
+#Put the country columns together
+Amountnew <- Thesis %>% 
+  gather(key = "Country_Number", value = "Countries", 
+         c(Country_1, Country_2, Country_3, Country_4, Country_5))
+
+
+#Now summarize all countries on the African continent
+str(Amountnew)
+
+african_countries <- c("Uganda|Kenya|Ghana|Zambia|Ethiopia|Tanzania|Nigeria|South Africa|Sub-Saharan Africa|Mozambique|Guinea|Burkina Faso|Malawi")
+
+Amountnew <- Amountnew %>%
+  mutate(Countries = str_replace_all(string = Countries,
+                                     pattern = african_countries,
+                                     replacement = "Africa"))
+
+
+#Now summarize all countries on the Asian continent
+str(Amountnew)
+
+asian_countries <- c("Indonesia|Nepal|India|Bangladesh|Vietnam|China|Myanmar|Philipines|Thailand|Cambodia|Pakistan")
+
+Amountnew <- Amountnew %>%
+  mutate(Countries = str_replace_all(string = Countries,
+                                     pattern = asian_countries,
+                                     replacement = "Asia"))
+
+# Peu belongs to South America and Nicaragua to North America
+
+str(Amountnew)
+
+american_countries <- c("Peru|South America|Nicaragua")
+
+Amountnew <- Amountnew %>%
+  mutate(Countries = str_replace_all(string = Countries,
+                                     pattern = american_countries,
+                                     replacement = "America"))
+
+Amountnew <-replace_dt(Amountnew,from = "Many", to = "Different research areas")
+
 
 #So, the first step is to differentiate between NAs
-Together <- Together %>% 
+Amountnew <- Amountnew %>% 
   mutate_all(~replace(., . == "NA", NA))
 
 
 #exclude the two comparative, general gender science studies that do not belong 
 #in the modelfrom 
-Together <- Together %>% 
+Amountnew <- Amountnew %>% 
   mutate_all(~replace(., . == "Mexico", NA))
 
-Together <- Together %>% 
+Amountnew <- Amountnew %>% 
   mutate_all(~replace(., . == "Canada", NA))
 
-Together <- Together %>% 
+Amountnew <- Amountnew %>% 
   mutate_all(~replace(., . == "New England", NA))
 
+Amountnew <- Amountnew %>% 
+  mutate_all(~replace(., . == "UK", NA))
+
 #Replace general (No researched country, but rather observation of topic)
-#Leave in Many (Studies observing many differnt countries)
+#Leave in Many (Studies observing many different countries)
 
-Amountnew <- Together %>% 
+Amountnew <- Amountnew %>% 
   mutate_all(~replace(., . == "General", NA))
-
-#Now summarize all countries on the african continent...does not work.........
-
-
-auto_specs_new <- mutate(Amountnew, Africa =Kenya)
-auto_specs_new <- mutate(Amountnew, Africa =Ghana)
-auto_specs_new <- mutate(Amountnew, Africa =Zambia)
-auto_specs_new <- mutate(Amountnew, Africa =Ethiopia)
-auto_specs_new <- mutate(Amountnew, Africa =Tanzania)
-auto_specs_new <- mutate(Amountnew, Africa =Nigeria)
-auto_specs_new <- mutate(Amountnew, Africa =South Africa)
-auto_specs_new <- mutate(Amountnew, Africa =Sub-Saharan Africa)
-auto_specs_new <- mutate(Amountnew, Africa =Mozambique)
-auto_specs_new <- mutate(Amountnew, Africa =Guinea)
-auto_specs_new <- mutate(Amountnew, Africa =Burkina Faso)
-auto_specs_new <- mutate(Amountnew, Africa =Malawi)
-
-
-Amountnew %>% 
-  rename(
-    A = "Kenya",
-  )
-
-weeds <- rename(Amountnew$Countries, A = "Kenya")
-
-rename_with(.data, .fn, .cols = everything(), ...)
-
-rename_with(Amountnew, toupper, if (Amountnew$Countries = "Kenya") {
-  "Kenya" == "Africa"}, .cols = everything())
-
-if (Amountnew$Countries = "Kenya") {
-  Amountnew[Africa == Kenya]
-  }
-
-rename(Amountnew$Countries, "Africa" = "Malawi")
-
-Amountnew[Africa == Malawi]
-Amountnew[Africa == Uganda]
-
-
-rename.vars(data, from="Malawi", to="Africa", info=TRUE)
 
 #show summary
 Amountnew$Countries
@@ -91,27 +92,52 @@ Amountnew <- na.omit(Amountnew)
 Amountnew <- Amountnew %>%
   mutate(Percentage = round((n / sum(n) * 100), 0))
 
-#Sort descending and show only top 10
+#Sort descending and show only top 4
 
 Amountnew <- Amountnew %>% 
   arrange(desc(n))
-Amountnew = Amountnew[1:15,]
-Amountnew$Top15 <- seq.int(nrow(Amountnew)) 
+Amountnew = Amountnew[1:4,]
+Amountnew$Top4 <- seq.int(nrow(Amountnew)) 
 
 #Relocate table columns
 Amountnew <- Amountnew %>% 
-  relocate(Top15, .before = `Together$Countries`)
+  relocate(Top4, .before = `Amountnew$Countries`)
 
 
-#change names of columns
-Amountnew = rename(Amountnew, Countries = `Amountnew$Countries`)
+#Change names of columns
+Amountnew = rename(Amountnew, "Continents" = `Amountnew$Countries`)
 Amountnew = rename(Amountnew, "Absolute number" = n)
-Amountnew = rename(Amountnew, "Top 15" = Top15)
+Amountnew = rename(Amountnew, "Top 4" = Top4)
 Amountnew = rename(Amountnew, "Percentage [%]" = Percentage)
 
-Amount_Table <-formattable(Amountnew, align =c("c","c","c","c","c", "c", "c", "c", "c"), 
+### Make a table ###
+
+Amount_Table <-formattable(Amountnew, align =c("c","l","c","c","c", "c", "c", "c", "c"), 
                            list(`Indicator Name` = formatter(
                              "span", style = ~ style(color = "grey",font.weight = "bold")),
                              `Top 15` = color_tile("grey80","grey94")))
 
+#Show result of table
+Amount_Table 
 
+
+
+
+### Pie chart with tidyverse ###
+
+label <- paste(Amountnew$`Percentage [%]`, "%")
+
+cols <- c("Africa" = "thistle3", "Asia" = "mistyrose2", "America" = "lavender", "Different research areas" = "wheat1")
+Amount_Pie <- Amountnew %>% 
+  ggplot(aes(x = "", y =Amountnew$`Percentage [%]`, fill = Continents)) +
+  geom_col() +
+  geom_text(aes(x = 1.6, label = label),color = c("gray10","gray10", "gray10", "gray10"),
+            position = position_stack(vjust = 0.5),
+            show.legend = FALSE) +
+  guides(fill = guide_legend(title = "Continents")) +
+  coord_polar(theta = "y")+
+  theme_void()+
+  scale_fill_manual(values = cols)
+#other nice colors: cornsilk1 und mystyrose1
+#Show the plot:
+Amount_Pie
