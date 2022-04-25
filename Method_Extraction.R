@@ -34,8 +34,9 @@ n_method <- n_method %>%
 n_method$n
 n_method$Method
 
-#Pie chart without tidyverse. This also shows how many colors are needed
-Method_Extraction <- pie(n_method$n, labels = n_method$Method, main = "n Method", 
+### Pie chart without tidyverse first ###
+Method_Extraction <- pie(n_method$n, labels = n_method$Method,
+                         main = "n Method", 
                          col = c("purple", "violetred1", "green3",
                                 "cornsilk"), clockwise = TRUE)
 
@@ -45,12 +46,14 @@ label <- paste(n_method$perc, "%")
 
 ### Pie chart with tidyverse ###
 
-cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3", "Methodological" = "plum4", "Mixed" = "lightpink2")
+cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3",
+          "Methodological" = "plum4", "Mixed" = "lightpink2")
 
 Method_Extraction <- n_method %>% 
   ggplot(aes(x = "", y =perc, fill = Method)) +
   geom_col() +
-  geom_label(aes(label = label), color = c("gray10","gray10", "gray10", "gray10"), 
+  geom_label(aes(label = label), color = c("gray10","gray10",
+                                           "gray10", "gray10"), 
          position = position_stack(vjust = 0.5),
            show.legend = FALSE) +
   guides(fill = guide_legend(title = " Methods used")) +

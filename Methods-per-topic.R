@@ -81,11 +81,12 @@ label <- paste(n_method$perc, "%")
 # To adjust to different topics, change the number of "grey10" as the color of 
 #labels for each slice. 
 
-cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3", "Methodological" = "plum4", "Mixed" = "lightpink2")
+cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3",
+          "Methodological" = "plum4", "Mixed" = "lightpink2")
 Method_Extraction <- n_method %>% 
   ggplot(aes(x = "", y =perc, fill = Method)) +
   geom_col() +
-  geom_label(aes(label = label), color = c("gray10","gray10", "gray10"), 
+  geom_label(aes(label = label), color = c("gray10","gray10"), 
              position = position_stack(vjust = 0.5),
              show.legend = FALSE) +
   guides(fill = guide_legend(title = "Methods")) +

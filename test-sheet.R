@@ -112,9 +112,11 @@ Amountnew = rename(Amountnew, "Percentage [%]" = Percentage)
 
 ### Make a table ###
 
-Amount_Table <-formattable(Amountnew, align =c("c","l","c","c","c", "c", "c", "c", "c"), 
+Amount_Table <-formattable(Amountnew, align =c("c","l","c","c","c", "c",
+                                               "c", "c", "c"), 
                            list(`Indicator Name` = formatter(
-                             "span", style = ~ style(color = "grey",font.weight = "bold")),
+                             "span", style = ~ style(color = "grey",
+                                                     font.weight = "bold")),
                              `Top 15` = color_tile("grey80","grey94")))
 
 #Show result of table
@@ -127,11 +129,13 @@ Amount_Table
 
 label <- paste(Amountnew$`Percentage [%]`, "%")
 
-cols <- c("Africa" = "thistle3", "Asia" = "mistyrose2", "America" = "lavender", "Different research areas" = "wheat1")
+cols <- c("Africa" = "thistle3", "Asia" = "mistyrose2", "America" = "lavender",
+          "Different research areas" = "wheat1")
 Amount_Pie <- Amountnew %>% 
   ggplot(aes(x = "", y =Amountnew$`Percentage [%]`, fill = Continents)) +
   geom_col() +
-  geom_text(aes(x = 1.6, label = label),color = c("gray10","gray10", "gray10", "gray10"),
+  geom_text(aes(x = 1.6, label = label),color = c("gray10","gray10", "gray10",
+                                                  "gray10"),
             position = position_stack(vjust = 0.5),
             show.legend = FALSE) +
   guides(fill = guide_legend(title = "Continents")) +

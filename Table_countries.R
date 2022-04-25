@@ -12,7 +12,8 @@ library(tidyr)
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
 
 Together <- Thesis %>% 
-  gather(key = "Country_Number", value = "Countries", c(Country_1, Country_2, Country_3, Country_4, Country_5))
+  gather(key = "Country_Number", value = "Countries", 
+         c(Country_1, Country_2, Country_3, Country_4, Country_5))
 
 #So, the first step is to differentiate between NAs
 Together <- Together %>% 
@@ -55,8 +56,12 @@ Amount <- Amount %>%
   Amount = rename(Amount, "Top 15" = Top15)
   Amount = rename(Amount, "Percentage [%]" = Percentage)
 
-Amount_Table <-formattable(Amount, align =c("c","c","c","c","c", "c", "c", "c", "c"), 
+Amount_Table <-formattable(Amount, align =c("c","c","c","c","c", "c", "c", "c",
+                                            "c"), 
                            list(`Indicator Name` = formatter(
-                             "span", style = ~ style(color = "grey",font.weight = "bold")),
+                             "span", style = ~ style(color = "grey",
+                                                     font.weight = "bold")),
                              `Top 15` = color_tile("grey80","grey94")))
 
+#Show Table
+Amount_Table
