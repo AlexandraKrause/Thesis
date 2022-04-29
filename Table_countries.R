@@ -6,7 +6,9 @@ library(data.table)
 library(dplyr)
 library(formattable)
 library(tidyr)
-
+library(remotes)
+library(echarts4r)
+library(echarts4r.maps)
 
 #Use the excel sheet
 Thesis <- read_excel("./methods-excel.xlsx", sheet = 1)
@@ -65,3 +67,26 @@ Amount_Table <-formattable(Amount, align =c("c","c","c","c","c", "c", "c", "c",
 
 #Show Table
 Amount_Table
+
+#################
+###map all the countries of case studies where y6 counties were included
+#(else = "many" in my excel sheet)
+echarts4r.maps::em_bank()
+
+df <- data.frame(
+  region = c("Uganda","Kenya","Ghana","Zambia", "Ethiopia", 
+             "United Republic of Tanzania", "Nigeria", "South_Africa",
+  "Mozambique", "Guinea", "Burkina Faso", "Malawi","Indonesia", "Nepal",
+  "India", "Bangladesh", "Vietnam","China",
+  "Myanmar", "Philippines", "Thailand", "Cambodia", "Pakistan", "Peru",
+  "Nicaragua"), 
+  value = c(1:25)
+)
+
+df |> 
+  e_charts(region) |>
+  em_map("World") |> 
+  e_map(value, map = "World") |> 
+  e_visual_map(value) |> 
+  e_theme("infographic")
+

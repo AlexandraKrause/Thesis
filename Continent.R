@@ -21,7 +21,7 @@ Amountnew <- Thesis %>%
 #Now summarize all countries on the African continent
 str(Amountnew)
 
-african_countries <- c("Uganda|Kenya|Ghana|Zambia|Ethiopia|Tanzania|Nigeria|South Africa|Sub-Saharan Africa|Mozambique|Guinea|Burkina Faso|Malawi")
+african_countries <- c("Uganda|Kenya|Ghana|Zambia|Ethiopia|Tanzania|Nigeria|South Africa|Mozambique|Guinea|Burkina Faso|Malawi")
 
 Amountnew <- Amountnew %>%
   mutate(Countries = str_replace_all(string = Countries,
