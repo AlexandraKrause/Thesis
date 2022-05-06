@@ -12,16 +12,16 @@ I extracted two main topics per scientific resource.
 -> This map shows the case study countries
 ![map](https://user-images.githubusercontent.com/82711784/167099936-ef0ec34a-f797-4888-82d8-3a079352cb2d.png)
 
-# Top 4 continents
--> this table shows the most represented continents
-![top 4 continents](https://user-images.githubusercontent.com/82711784/167110778-fe587ecf-e30f-4552-80dd-406d57eff651.png)
+# Continent table
+-> this table shows the four most represented continents
+![continent table](https://user-images.githubusercontent.com/82711784/167111627-27055326-6f0c-4686-8828-46c4755ffec9.png)
 
 # Continent pie chart
 -> This pie chart represents the number of continents included in my model.
 
 ![country-pie-chart](https://user-images.githubusercontent.com/82711784/167104362-fafc53c6-d816-4584-b376-5344394d3cad.png)
 
-# Top 15 country table
+# Country table
 -> This table shows the 15 most often occurring countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
 
 ![bigger-top15-countries](https://user-images.githubusercontent.com/82711784/167110116-29d1d0b4-1214-4b28-bd0e-a63b9a7c8fa7.png)
