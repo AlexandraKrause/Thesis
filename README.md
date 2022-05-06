@@ -12,25 +12,24 @@ I extracted two main topics per scientific resource.
 -> This map shows the case study countries
 ![map](https://user-images.githubusercontent.com/82711784/167099936-ef0ec34a-f797-4888-82d8-3a079352cb2d.png)
 
+# Top 4 continents
+-> this table shows the most represented continents
+![top 4 continents](https://user-images.githubusercontent.com/82711784/167110778-fe587ecf-e30f-4552-80dd-406d57eff651.png)
 
 # Top 15 country table
 -> This table shows the 15 most often occurring countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
 
-
 ![bigger-top15-countries](https://user-images.githubusercontent.com/82711784/167110116-29d1d0b4-1214-4b28-bd0e-a63b9a7c8fa7.png)
-
 
 # Country pie chart
 -> This pie chart represents the number of countries included in my model.
 
 ![country-pie-chart](https://user-images.githubusercontent.com/82711784/167104362-fafc53c6-d816-4584-b376-5344394d3cad.png)
 
-
 # Methodologies
 -> A pie chart shows the used methodologies found during my literature research.
 
 ![Used-Methods-overall](https://user-images.githubusercontent.com/82711784/167103660-e5e18f01-a4c3-4b65-a6c7-6f7837699a96.png)
-
 
 # Topics
 -> I extracted one to two main topics per scientific resource. This distribution shows how often which main topics were present within the literature research.
