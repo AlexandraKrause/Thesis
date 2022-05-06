@@ -16,7 +16,8 @@ I extracted two main topics per scientific resource.
 # Top 15 country table
 -> This table shows the 15 most often occurring countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
 
-![bigger-top15-countries](https://user-images.githubusercontent.com/82711784/167107921-e82d6493-d3bf-45c0-a0bd-3a623a69e2b8.png)
+
+![bigger-top15-countries](https://user-images.githubusercontent.com/82711784/167110116-29d1d0b4-1214-4b28-bd0e-a63b9a7c8fa7.png)
 
 
 # Country pie chart
