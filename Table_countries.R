@@ -7,6 +7,7 @@ library(dplyr)
 library(formattable)
 library(tidyr)
 library(remotes)
+#remotes::install_github('JohnCoene/echarts4r.maps')
 library(echarts4r)
 library(echarts4r.maps)
 

@@ -43,7 +43,7 @@ Amountnew <- Amountnew %>%
 
 str(Amountnew)
 
-american_countries <- c("Peru|South America|Nicaragua")
+american_countries <- c("Peru|Nicaragua")
 
 Amountnew <- Amountnew %>%
   mutate(Countries = str_replace_all(string = Countries,
@@ -59,10 +59,7 @@ Amountnew <- Amountnew %>%
 
 
 #exclude the two comparative, general gender science studies that do not belong 
-#in the modelfrom 
-
-#Amountnew <- Amountnew %>% 
-#  mutate_all(~replace(., . == "Mexico", NA))
+#in the model. Following countries:
 
 #Amountnew <- Amountnew %>% 
 #  mutate_all(~replace(., . == "Canada", NA))
@@ -76,7 +73,7 @@ Amountnew <- Amountnew %>%
 
 #or show them as the category "other"
 
-other_countries <- c("UK|New England|Canada|Mexico")
+other_countries <- c("UK|New England|Canada")
 
 Amountnew <- Amountnew %>%
   mutate(Countries = str_replace_all(string = Countries,
@@ -157,3 +154,4 @@ Amount_Pie <- Amountnew %>%
 #other nice colors: cornsilk1 und mistyrose1
 #Show the plot:
 Amount_Pie
+
