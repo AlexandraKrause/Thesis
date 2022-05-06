@@ -7,4 +7,4 @@ Map of the countries, where case studies were conducted within the literature re
 ![Methods used](https://user-images.githubusercontent.com/82711784/167101329-c0ab9662-f9b5-426c-8419-a986af028476.png)
 
 A pie chart shows the used methodologies within the literature research - including 128 scientific resources (papers, books). 
-Twenty more sources included R.package descriptions and websites.
+Twenty more sources included R.package descriptions and websites, but were not included to conduct the figures.
