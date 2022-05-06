@@ -9,7 +9,7 @@ Twenty more sources included R.package descriptions and websites, but these were
 I extracted two main topics per scientific resource.
 
 # Country map
--> This map shows the case study countries
+-> This map shows the case study countries. The color nuances represent different countries, giving a clear visualization.
 ![map](https://user-images.githubusercontent.com/82711784/167099936-ef0ec34a-f797-4888-82d8-3a079352cb2d.png)
 
 # Continent table
