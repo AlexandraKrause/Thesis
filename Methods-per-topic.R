@@ -1,5 +1,4 @@
 ### Method extraction for the different topics###
-
 library(readxl)
 library(tidyverse)
 library(ggplot2)

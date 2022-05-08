@@ -155,3 +155,8 @@ Amount_Pie <- Amountnew %>%
 #Show the plot:
 Amount_Pie
 
+ggsave(paste0("."),
+       width = 25,
+       height = 14,
+       units = "cm",
+       dpi = 300)
