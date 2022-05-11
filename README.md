@@ -4,8 +4,9 @@
 Literature review/ Decision Analysis Impact Pathway statistics
 Figures describing my literature research/ Decision Analysis Impact Pathway for my MSc. Thesis, showing distributions, limitations, and others.
 
-I conducted my Literature research to draw a detailed Decision Analysis Impact Pathway, which I later reduced to model it with code. This research included 128 scientific sources (papers, books). Three Resources were only present in the literature review since these studies reflected generalized findings from European case studies, not including developing countries. Therefore they were not included in the model or the following plots.
-Twenty more sources included R.package descriptions and websites, but these were also not included to conduct the figures or the model. I extracted 5 case study countries per study. > 5 case study countries were referred to as "Many" in the country table or "Different research areas" in the "Continent"- table. These case studies partly contained very many areas and were therefore referred to in this way. Therefore, I did not include these in the design of the maps.
+I conducted my Literature research to draw a detailed Decision Analysis Impact Pathway, which I later reduced to model it with code. This research included 128 scientific sources (papers, books). Among these, there were 33 mehodological papers, that were not included in the model itself, but in the literature review and the following plots. Three Resources were only present in the literature review since these studies reflected generalized findings from European case studies, not including developing countries. Therefore they were not included in the model or the following plots.
+Twenty more sources included R.package descriptions and websites, but these were also not included to conduct the figures or the model.
+I extracted 5 case study countries per study. > 5 case study countries were referred to as "Many" in the country table or "Different research areas" in the "Continent"- table. These case studies partly contained very many areas and were therefore referred to in this way. Therefore, I did not include these in the design of the maps.
 I extracted two main topics per scientific resource.
 
 # Country map
