@@ -41,8 +41,6 @@ I also extracted two main topics per scientific resource.
 ![Topics2](https://user-images.githubusercontent.com/82711784/167103067-1e47b638-3f36-4a85-b44f-3c5921571451.png)
 
 
--> To overview methods used per topic, see "Methods-per-topic.R"
-
-Example for Topic "Education":
+-> To overview methods used per topic for all 8 topics, see "Methods-per-topic.R". Here is an example for the topic "Education":
 ![Methods used for Topic Education](https://user-images.githubusercontent.com/82711784/170363634-50cf3121-534e-4aec-93e2-414a302aeadc.png)
 
