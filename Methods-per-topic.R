@@ -85,7 +85,7 @@ cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3",
 Method_Extraction <- n_method %>% 
   ggplot(aes(x = "", y =perc, fill = Method)) +
   geom_col() +
-  geom_label(aes(label = label), color = c("gray10","gray10"), 
+  geom_label(aes(label = label), color = c("gray10","gray10","gray10", "gray10" ), 
              position = position_stack(vjust = 0.5),
              show.legend = FALSE) +
   guides(fill = guide_legend(title = "Methods")) +
