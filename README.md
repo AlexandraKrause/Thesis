@@ -4,7 +4,7 @@
 Literature review/ Decision Analysis Impact Pathway statistics
 Figures describing my literature research/ Decision Analysis Impact Pathway for my MSc. Thesis, showing distributions, limitations, and others.
 
-I conducted my Literature research to draw a detailed Decision Analysis Impact Pathway, which I later reduced to model it with code. This research included 125 scientific sources (papers, books). Among these, 33 papers were mehodological and therefore not included in the model itself, but in the literature review and the following plots. Three Resources were only present in the literature review since these studies reflected generalized findings from European case studies, not including developing countries. Therefore they were not included in the model or the following plots.
+I conducted my Literature research to draw a detailed Decision Analysis Impact Pathway, which I later reduced to model it with code. This research included 123 scientific sources (papers, books). Among these, 33 papers were mehodological and therefore not included in the model itself, but in the literature review and the following plots. The visual model was created with 85 papers. Three Resources were only present in the literature review since these studies reflected generalized findings from European case studies, not including developing countries. Therefore they were not included in the model or the following plots.
 Twenty more sources included R.package descriptions and websites, but these were also not included to conduct the figures or the model.
 
 
@@ -44,3 +44,6 @@ I also extracted two main topics per scientific resource.
 -> To overview methods used per topic for all 8 topics, see "Methods-per-topic.R". Here is an example for the topic "Education":
 ![Methods used for Topic Education](https://user-images.githubusercontent.com/82711784/170363634-50cf3121-534e-4aec-93e2-414a302aeadc.png)
 
+#Complete visual model
+-> find HTML and URL overview in the "Graphics" section
+![Extensive-Decision-Analysis-Impact-Pathway drawio](https://user-images.githubusercontent.com/82711784/170835203-fe3df8a6-d8fa-4410-80e6-5a8ac9ecda1d.svg)
