@@ -42,8 +42,9 @@ I also extracted two main topics per scientific resource.
 
 
 -> To overview methods used per topic for all 8 topics, see "Methods-per-topic.R". Here is an example for the topic "Education":
+
 ![Methods used for Topic Education](https://user-images.githubusercontent.com/82711784/170363634-50cf3121-534e-4aec-93e2-414a302aeadc.png)
 
-#Complete visual model
+# Complete visual model
 -> find HTML and URL overview in the "Graphics" section
 ![Extensive-Decision-Analysis-Impact-Pathway drawio](https://user-images.githubusercontent.com/82711784/170835203-fe3df8a6-d8fa-4410-80e6-5a8ac9ecda1d.svg)
