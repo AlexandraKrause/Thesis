@@ -13,7 +13,7 @@ I also extracted two main topics per scientific resource.
 Find the Find the numbered citations list here for more detailed information: https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
 
 # Country map
--> This map shows the case study countries. The color nuances represent different countries, giving a clear visualization.
+-> This map shows the case study countries. The color nuances represent different countries,not the amount of studies, giving a clear visualization of country borders.
 ![map](https://user-images.githubusercontent.com/82711784/167099936-ef0ec34a-f797-4888-82d8-3a079352cb2d.png)
 
 # Continent table
