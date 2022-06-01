@@ -47,4 +47,6 @@ I also extracted two main topics per scientific resource.
 
 # Complete visual model
 -> find HTML and URL overview in the "Graphics" section
+-> find the numbered citations list here:
+https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
 ![Extensive-Decision-Analysis-Impact-Pathway drawio](https://user-images.githubusercontent.com/82711784/170835203-fe3df8a6-d8fa-4410-80e6-5a8ac9ecda1d.svg)
