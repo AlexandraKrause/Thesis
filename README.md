@@ -17,7 +17,6 @@ Find the Find the numbered citations list here for more detailed information: ht
 # Country map
 -> This map shows the case study countries. The color nuances represent different countries,not the amount of studies, giving a clear visualization of country borders.
 ![map1](https://user-images.githubusercontent.com/82711784/173607327-ace546cc-b290-4d18-93d5-7f5cd59848a0.png)
-![map](https://user-images.githubusercontent.com/82711784/167099936-ef0ec34a-f797-4888-82d8-3a079352cb2d.png)
 
 # Continent table
 -> this table shows the  number of studies per continent.
