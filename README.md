@@ -6,14 +6,17 @@ Figures describing my literature research/ Decision Analysis Impact Pathway for 
 
 I conducted my Literature research to draw a detailed Decision Analysis Impact Pathway, which I later reduced to model it with code. This research included 123 scientific sources (papers, books). Among these, 33 papers were mehodological and therefore not included in the model itself, but in the literature review and the following plots. The visual model was created with 83 papers, one presentation and one policy brief. Three Resources were only present in the literature review since these studies reflected generalized findings from European case studies, not including developing countries. Therefore they were not included in the model or the following plots.
 Twenty more sources included R.package descriptions and websites, but these were also not included to conduct the figures or the model.
+Not included in the model, but within the literature research was the Workforce.xls sheet.
 
 
 I extracted 5 case study countries per study. > 5 case study countries were referred to as "Many" in the country table or "Different research areas" in the "Continent"- table instead of listing all countries sperately. These case studies partly contained very many areas and were therefore referred to in this way (also in the excel sheet). For this reason, I also did not include these in the design of the maps.
 I also extracted two main topics per scientific resource.
 Find the Find the numbered citations list here for more detailed information: https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
 
+
 # Country map
 -> This map shows the case study countries. The color nuances represent different countries,not the amount of studies, giving a clear visualization of country borders.
+![map1](https://user-images.githubusercontent.com/82711784/173607327-ace546cc-b290-4d18-93d5-7f5cd59848a0.png)
 ![map](https://user-images.githubusercontent.com/82711784/167099936-ef0ec34a-f797-4888-82d8-3a079352cb2d.png)
 
 # Continent table
