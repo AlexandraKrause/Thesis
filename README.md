@@ -15,7 +15,7 @@ Find the Find the numbered citations list here for more detailed information: ht
 
 
 # Country map
--> This map shows the case study countries. The color nuances represent different countries,not the amount of studies, giving a clear visualization of country borders.
+-> This map shows the case study countries. The color nuances represent different countries, not the amount of studies, giving a clear visualization of country borders. So, different colors represent different countries.
 
 ![map1](https://user-images.githubusercontent.com/82711784/173607327-ace546cc-b290-4d18-93d5-7f5cd59848a0.png)
 
