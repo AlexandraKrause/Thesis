@@ -8,7 +8,6 @@ I conducted my Literature research to draw a detailed Decision Analysis Impact P
 Many more sources included R.package descriptions and websites, but these were also not included to conduct the figures or the model.
 Not included in the model, but within the literature research was the Workforce.xls sheet.
 
-
 I extracted 5 case study countries per study. > 5 case study countries were referred to as "Many" in the country table or "Different research areas" in the "Continent"- table instead of listing all countries sperately. These case studies partly contained very many areas and were therefore referred to in this way (also in the excel sheet). For this reason, I also did not include these in the design of the maps.
 I also extracted two main topics per scientific resource.
 Find the Find the numbered citations list here for more detailed information: https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
