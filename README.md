@@ -13,12 +13,6 @@ I extracted 5 case study countries per study. > 5 case study countries were refe
 I also extracted two main topics per scientific resource.
 Find the Find the numbered citations list here for more detailed information: https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
 
-
-# Country map
--> This map shows the case study countries. The color nuances represent different countries, not the amount of studies, giving a clear visualization of country borders. So, different colors represent different countries.
-
-![map1](https://user-images.githubusercontent.com/82711784/173607327-ace546cc-b290-4d18-93d5-7f5cd59848a0.png)
-
 # Continent table
 -> this table shows the  number of studies per continent.
 ![continent table](https://user-images.githubusercontent.com/82711784/167111627-27055326-6f0c-4686-8828-46c4755ffec9.png)
