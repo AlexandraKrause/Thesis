@@ -27,6 +27,10 @@ And find HTML and URL overview in the "Graphics" section and
 
 <br>
 <br>
+
+
+
+
 # Continent table
 -> this table shows the  number of studies per continent.
 ![continent table](https://user-images.githubusercontent.com/82711784/167111627-27055326-6f0c-4686-8828-46c4755ffec9.png)
