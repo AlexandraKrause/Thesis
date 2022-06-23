@@ -28,7 +28,6 @@ And find HTML and URL overview in the "Graphics" section and
 <br><br><br>
 <hr><hr>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br>
 
 
 
