@@ -26,7 +26,7 @@ And find HTML and URL overview in the "Graphics" section and
 ![image](https://user-images.githubusercontent.com/82711784/175346910-5405ef3a-2247-415b-b697-2b3788c41ba2.png)
 
 <br><br><br>
-<hr>
+<hr><hr>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br>
 
