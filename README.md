@@ -25,7 +25,10 @@ And find HTML and URL overview in the "Graphics" section and
 # In comparison: Number of cited studies per methodology of Pyburn & van Eerdewijk (2021)
 ![image](https://user-images.githubusercontent.com/82711784/175346910-5405ef3a-2247-415b-b697-2b3788c41ba2.png)
 
-#############################################################################################################################################################
+###################################################
+
+
+
 
 # Continent table
 -> this table shows the  number of studies per continent.
