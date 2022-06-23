@@ -29,7 +29,14 @@ And find HTML and URL overview in the "Graphics" section and
 <br>
 &ensp;
 &ensp;
-
+&ensp;
+&ensp;
+&ensp;
+&ensp;
+&ensp;
+&ensp;
+&ensp;
+&ensp;
 
 # Continent table
 -> this table shows the  number of studies per continent.
