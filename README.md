@@ -11,6 +11,7 @@ Not included in the model, but within the literature research was the Workforce.
 I extracted 5 case study countries per study. > 5 case study countries were referred to as "Many" in the country table or "Different research areas" in the "Continent"- table instead of listing all countries sperately. These case studies partly contained very many areas and were therefore referred to in this way (also in the excel sheet). For this reason, I also did not include these in the design of the maps.
 I also extracted two main topics per scientific resource.
 Find the Find the numbered citations list here for more detailed information: https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
+Find the "Femiaculture" app here: https://github.com/AlexandraKrause/Femiaculture
 
 # Complete visual model
 -> This is the detailed Decision Analysis Impact Pathway, built by literature review and conference attendance. The numbers represent the sources you can find in the excel sheet. Find the numbered citations list here:
