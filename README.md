@@ -22,6 +22,11 @@ And find HTML and URL overview in the "Graphics" section and
 -> A pie chart shows the used methodologies found during my literature research.
 ![Used-Methods-overall](https://user-images.githubusercontent.com/82711784/167103660-e5e18f01-a4c3-4b65-a6c7-6f7837699a96.png)
 
+# In comparison: Number of cited studies per methodology of Pyburn & van Eerdewijk (2021)
+![image](https://user-images.githubusercontent.com/82711784/175346910-5405ef3a-2247-415b-b697-2b3788c41ba2.png)
+
+#############################################################################################################################################################
+
 # Continent table
 -> this table shows the  number of studies per continent.
 ![continent table](https://user-images.githubusercontent.com/82711784/167111627-27055326-6f0c-4686-8828-46c4755ffec9.png)
@@ -43,3 +48,8 @@ And find HTML and URL overview in the "Graphics" section and
 
 ![Methods used for Topic Education](https://user-images.githubusercontent.com/82711784/170363634-50cf3121-534e-4aec-93e2-414a302aeadc.png)
 
+# Literature
+Pyburn, Rhiannon, and Anouka Van Eerdewijk (eds).
+Advancing Gender Equality through Agricultural and Environmental Research: Past,
+Present, and Future. Washington, DC: International Food Policy Research Institute,
+2021.
