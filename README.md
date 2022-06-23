@@ -27,8 +27,8 @@ And find HTML and URL overview in the "Graphics" section and
 
 <br>
 <br>
-
-
+&ensp;
+&ensp;
 
 
 # Continent table
