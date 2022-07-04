@@ -15,7 +15,7 @@ Find the "Femiaculture" app here: https://github.com/AlexandraKrause/Femiacultur
 # Complete visual model
 -> This is the detailed Decision Analysis Impact Pathway, built by literature review and conference attendance. The numbers represent the sources you can find in the excel sheet. Find the numbered citations list here:
 https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
-And find HTML and URL overview in the "Graphics" section and here:
+And find HTML and URL overview in the "Graphics" section.
 ![Extended-Decision-Analysis-Impact-Pathway drawio](https://user-images.githubusercontent.com/82711784/177217685-211bb653-c3b5-46d8-abf8-cf0dbfca419e.png)
 
 # Methodologies
