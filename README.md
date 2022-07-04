@@ -42,6 +42,8 @@ And find HTML and URL overview in the "Graphics" section and
 # Country table
 -> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
 ![04 07 22 table top 15 countries](https://user-images.githubusercontent.com/82711784/177217814-fd2db076-c3e0-431e-944f-b270a49602dd.png)
+
+# Country map
 -> This map shows in which countriesthe observed research took place 
 ![4 7 22 map research countries](https://user-images.githubusercontent.com/82711784/177217898-451b61be-378c-4596-8196-81ca80303ea9.png)
 
