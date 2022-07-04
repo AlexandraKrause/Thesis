@@ -33,7 +33,8 @@ And find HTML and URL overview in the "Graphics" section and
 
 # Continent table
 -> this table shows the  number of studies per continent.
-![04 07 2022 continent table](https://user-images.githubusercontent.com/82711784/177217783-6a262fc6-33a5-40de-8622-d848a68927f9.png)
+![04 07 2022 continent table](https://user-images.githubusercontent.com/82711784/177218079-44de2d4e-3712-4809-8829-0ea00419749d.png)
+
 
 # Continent pie chart
 -> This pie chart represents the number of studies per continent, which were included in my model.
