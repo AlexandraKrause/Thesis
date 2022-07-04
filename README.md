@@ -1,7 +1,7 @@
 # Master thesis 
 # Factors influencing rural farm women’s empowerment in agricultural development
 
-Literature review/ Decision Analysis Impact Pathway statistics
+-Literature review/ Decision Analysis Impact Pathway statistics-
 Figures describing my literature research/ Decision Analysis Impact Pathway for my MSc. Thesis, showing distributions, limitations, and others.
 
 I conducted my Literature research to draw a detailed Decision Analysis Impact Pathway, which I later reduced to model it with code. This research included 155 scientific sources (papers, books). Among these, 48 papers were mehodological and therefore not included in the model itself, but in the literature review and the following plots. The visual model was created with 99 papers, one presentation and one policy brief. Three Resources were only present in the literature review since these studies reflected generalized findings from European case studies, not including developing countries. Therefore they were not included in the model or the following plots.
