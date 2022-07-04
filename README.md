@@ -49,7 +49,9 @@ And find HTML and URL overview in the "Graphics" section and
 
 # Topics
 -> I extracted one to two main topics per scientific resource. I found 8 topic areas and studies containing "many" differnt topic to similar amounts. This distribution shows how often which main topics were present within the literature research. These areas can also be found in my detailed Decision Analysis Impact pathway.
+
 ![04 07 22 main topics](https://user-images.githubusercontent.com/82711784/177217831-a06ed4b4-7d32-4094-8165-863af1a825ae.png)
+
 
 # Topics:Education
 -> To overview methods used per topic for all 8 topics, see "Methods-per-topic.R". Here is an example for the topic "Education":
