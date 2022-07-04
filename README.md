@@ -16,11 +16,11 @@ Find the "Femiaculture" app here: https://github.com/AlexandraKrause/Femiacultur
 -> This is the detailed Decision Analysis Impact Pathway, built by literature review and conference attendance. The numbers represent the sources you can find in the excel sheet. Find the numbered citations list here:
 https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
 And find HTML and URL overview in the "Graphics" section and 
-![Extensive-Decision-Analysis-Impact-Pathway drawio](https://user-images.githubusercontent.com/82711784/170835203-fe3df8a6-d8fa-4410-80e6-5a8ac9ecda1d.svg)
+![Extended-Decision-Analysis-Impact-Pathway drawio](https://user-images.githubusercontent.com/82711784/177217685-211bb653-c3b5-46d8-abf8-cf0dbfca419e.png)
 
 # Methodologies
 -> A pie chart shows the used methodologies found during my literature research.
-![Used-Methods-overall](https://user-images.githubusercontent.com/82711784/167103660-e5e18f01-a4c3-4b65-a6c7-6f7837699a96.png)
+![04 07 22 used methods general](https://user-images.githubusercontent.com/82711784/177217750-ca886b9a-ea95-4614-bf49-a07908d9d578.png)
 
 # In comparison: Number of cited studies per methodology of Pyburn & van Eerdewijk (2021)
 ![image](https://user-images.githubusercontent.com/82711784/175346910-5405ef3a-2247-415b-b697-2b3788c41ba2.png)
@@ -33,24 +33,24 @@ And find HTML and URL overview in the "Graphics" section and
 
 # Continent table
 -> this table shows the  number of studies per continent.
-![continent table](https://user-images.githubusercontent.com/82711784/167111627-27055326-6f0c-4686-8828-46c4755ffec9.png)
+![04 07 2022 continent table](https://user-images.githubusercontent.com/82711784/177217783-6a262fc6-33a5-40de-8622-d848a68927f9.png)
 
 # Continent pie chart
 -> This pie chart represents the number of studies per continent, which were included in my model.
-![country-pie-chart](https://user-images.githubusercontent.com/82711784/167104362-fafc53c6-d816-4584-b376-5344394d3cad.png)
+![continent-pie-chart-04 07 22](https://user-images.githubusercontent.com/82711784/177217796-ac729cdd-e4f4-45b2-b6f4-82a7cb8ea31f.png)
 
 # Country table
 -> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
-![bigger-top15-countries](https://user-images.githubusercontent.com/82711784/167110116-29d1d0b4-1214-4b28-bd0e-a63b9a7c8fa7.png)
+![04 07 22 table top 15 countries](https://user-images.githubusercontent.com/82711784/177217814-fd2db076-c3e0-431e-944f-b270a49602dd.png)
+-> This map shows in which countriesthe observed research took place 
+![4 7 22 map research countries](https://user-images.githubusercontent.com/82711784/177217898-451b61be-378c-4596-8196-81ca80303ea9.png)
 
 # Topics
 -> I extracted one to two main topics per scientific resource. I found 8 topic areas and studies containing "many" differnt topic to similar amounts. This distribution shows how often which main topics were present within the literature research. These areas can also be found in my detailed Decision Analysis Impact pathway.
-
-![Topics2](https://user-images.githubusercontent.com/82711784/167103067-1e47b638-3f36-4a85-b44f-3c5921571451.png)
+![04 07 22 main topics](https://user-images.githubusercontent.com/82711784/177217831-a06ed4b4-7d32-4094-8165-863af1a825ae.png)
 
 -> To overview methods used per topic for all 8 topics, see "Methods-per-topic.R". Here is an example for the topic "Education":
-
-![Methods used for Topic Education](https://user-images.githubusercontent.com/82711784/170363634-50cf3121-534e-4aec-93e2-414a302aeadc.png)
+![04 07 22-used methods-education](https://user-images.githubusercontent.com/82711784/177217848-2a94083c-5a5f-43cd-acc1-48d861b1e318.png)
 
 # Literature
 Pyburn, Rhiannon, and Anouka Van Eerdewijk (eds).
