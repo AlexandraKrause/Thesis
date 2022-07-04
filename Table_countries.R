@@ -81,7 +81,7 @@ df <- data.frame(
   "India", "Bangladesh", "Vietnam","China",
   "Myanmar", "Philippines", "Thailand", "Cambodia", "Pakistan", "Peru",
   "Nicaragua"), 
-  value = c(1:25)
+  value = c(1)
 )
 
 df |> 

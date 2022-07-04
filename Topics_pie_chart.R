@@ -49,7 +49,7 @@ label <- paste(Amount$perc, "%")
 Amount$`Together$Topics`
 
 ### Pie chart with tidyverse ###
-Method_Extraction <- Amount %>% 
+MainTopic_Extraction <- Amount %>% 
   ggplot(aes(x = "", y =perc, fill = `Together$Topics`)) +
   geom_col() +
   geom_text(aes(x = 1.6, label = label),
@@ -61,4 +61,5 @@ Method_Extraction <- Amount %>%
   scale_fill_brewer(palette = "Pastel1")
 
 #Show the plot:
-Method_Extraction
+MainTopic_Extraction
+

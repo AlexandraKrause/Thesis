@@ -16,7 +16,7 @@ Thesis$Main_topic_2
 
 ###############################################################################
 #I decided ti use the gather function and have up to two main topics. 
-#Else this code would woork:
+#Else this code would work:
 
 #Sort by Main topics (Main_topic_1) to make a new pie chart
 #Nutrition <- Thesis %>% 
@@ -47,7 +47,7 @@ Together <- Thesis %>%
 #methodological studies. The pie chart of Education topics only has 2 colors.
 
 Filtered <- Together %>% 
-  filter(Topics == "Education")
+  filter(Topics == "Time")
 
 count(Filtered)
 
@@ -75,6 +75,12 @@ n_method$Method
 #To get a percentage (%) sign next to the values:
 label <- paste(n_method$perc, "%")
 
+### Pie chart without tidyverse first ###
+
+Method_Extraction <- pie(n_method$n, labels = n_method$Method,
+                         main = "n Method", 
+                         col = c("purple", "violetred1", "green3",
+                                 "cornsilk"), clockwise = TRUE)
 
 ### Pie chart with tidyverse ###
 # To adjust to different topics, change the number of "grey10" as the color of 
@@ -85,10 +91,10 @@ cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3",
 Method_Extraction <- n_method %>% 
   ggplot(aes(x = "", y =perc, fill = Method)) +
   geom_col() +
-  geom_label(aes(label = label), color = c("gray10","gray10","gray10", "gray10" ), 
+  geom_label(aes(label = label), color = c("gray10","gray10","gray10"), 
              position = position_stack(vjust = 0.5),
              show.legend = FALSE) +
-  guides(fill = guide_legend(title = "Methods")) +
+  guides(fill = guide_legend(title = 'Used Methods; Topic "Time"')) +
   coord_polar(theta = "y")+
   theme_void()+
   scale_fill_manual(values = cols)
