@@ -80,7 +80,7 @@ df <- data.frame(
   "Mozambique", "Guinea", "Burkina Faso", "Malawi","Indonesia", "Nepal",
   "India", "Bangladesh", "Vietnam","China",
   "Myanmar", "Philippines", "Thailand", "Cambodia", "Pakistan", "Peru",
-  "Nicaragua", "Zimabwe"), 
+  "Nicaragua", "Zimbabwe"), 
   value = c(1)
 )
 
