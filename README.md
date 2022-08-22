@@ -21,7 +21,7 @@ And find HTML and URL overview in the "Graphics" section.
 
 # Methodologies
 -> A pie chart shows the used methodologies found during my literature research.
-![04 07 22 used methods general](https://user-images.githubusercontent.com/82711784/177217750-ca886b9a-ea95-4614-bf49-a07908d9d578.png)
+![used-methods](https://user-images.githubusercontent.com/82711784/185957895-0d742459-b1d3-4043-a616-37b155d978da.png)
 
 # In comparison: Number of cited studies per methodology of Pyburn & van Eerdewijk (2021)
 ![image](https://user-images.githubusercontent.com/82711784/175346910-5405ef3a-2247-415b-b697-2b3788c41ba2.png)
@@ -34,30 +34,33 @@ And find HTML and URL overview in the "Graphics" section.
 
 # Continent table
 -> this table shows the  number of studies per continent.
-![04 07 2022 continent table](https://user-images.githubusercontent.com/82711784/177218079-44de2d4e-3712-4809-8829-0ea00419749d.png)
+![table2](https://user-images.githubusercontent.com/82711784/185957987-250f1b8d-a44e-448b-aaba-b1b5897c6c2f.png)
+
 
 
 # Continent pie chart
 -> This pie chart represents the number of studies per continent, which were included in my model.
-![continent-pie-chart-04 07 22](https://user-images.githubusercontent.com/82711784/177217796-ac729cdd-e4f4-45b2-b6f4-82a7cb8ea31f.png)
+![continents](https://user-images.githubusercontent.com/82711784/185958037-0532fa1b-15f6-4f91-9b0d-2f5fd16c5ec4.png)
+
 
 # Country table
--> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
-![04 07 22 table top 15 countries](https://user-images.githubusercontent.com/82711784/177217814-fd2db076-c3e0-431e-944f-b270a49602dd.png)
+-> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case 
+![table1](https://user-images.githubusercontent.com/82711784/185958073-1232f4d0-6186-4d78-a5ed-fdf43b4c4df7.png)
 
 # Country map
 -> This map shows in which countriesthe observed research took place 
-![4 7 22 map research countries](https://user-images.githubusercontent.com/82711784/177217898-451b61be-378c-4596-8196-81ca80303ea9.png)
+![map-scharf](https://user-images.githubusercontent.com/82711784/185958123-1b1d44d0-40e8-4b15-9714-a0a2a26a4041.png)
+
 
 # Topics
 -> I extracted one to two main topics per scientific resource. I found 8 topic areas and studies containing "many" differnt topic to similar amounts. This distribution shows how often which main topics were present within the literature research. These areas can also be found in my detailed Decision Analysis Impact pathway.
 
-![04 07 22 main topics](https://user-images.githubusercontent.com/82711784/177217831-a06ed4b4-7d32-4094-8165-863af1a825ae.png)
-
+![main topics](https://user-images.githubusercontent.com/82711784/185958161-a77a40ab-8f6d-4e08-92be-05ed992d3b4a.png)
 
 # Topics:Education
 -> To overview methods used per topic for all 8 topics, see "Methods-per-topic.R". Here is an example for the topic "Education":
-![04 07 22-used methods-education](https://user-images.githubusercontent.com/82711784/177217848-2a94083c-5a5f-43cd-acc1-48d861b1e318.png)
+![education](https://user-images.githubusercontent.com/82711784/185958210-92363d51-7cda-4a4b-9315-aee489a609b2.png)
+
 
 # Literature
 Pyburn, Rhiannon, and Anouka Van Eerdewijk (eds).
