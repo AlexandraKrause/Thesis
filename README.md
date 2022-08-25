@@ -56,7 +56,7 @@ And find HTML and URL overview in the "Graphics" section.
 
 
 # Country table
--> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies
+-> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
 
 ![table1](https://user-images.githubusercontent.com/82711784/186691230-b526d1eb-af3d-428a-bf0d-feebbbb2cccb.png)
 
