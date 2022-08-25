@@ -45,7 +45,7 @@ And find HTML and URL overview in the "Graphics" section.
 
 # Continent table
 -> this table shows the  number of studies per continent.
-![table2](https://user-images.githubusercontent.com/82711784/185957987-250f1b8d-a44e-448b-aaba-b1b5897c6c2f.png)
+![table2](https://user-images.githubusercontent.com/82711784/186690970-7885a0f3-ee04-4107-bda7-bcf0df293cd7.png)
 
 
 
@@ -56,7 +56,8 @@ And find HTML and URL overview in the "Graphics" section.
 
 # Country table
 -> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case 
-![table2](https://user-images.githubusercontent.com/82711784/186690970-7885a0f3-ee04-4107-bda7-bcf0df293cd7.png)
+![table1](https://user-images.githubusercontent.com/82711784/186691230-b526d1eb-af3d-428a-bf0d-feebbbb2cccb.png)
+
 
 
 # Country map
