@@ -1,4 +1,4 @@
-### Method extraction for all topics ###
+### Table of countries ###
 
 library(readxl)
 library(tidyverse)

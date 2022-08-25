@@ -1,4 +1,4 @@
-### Method extraction for all topics ###
+### Method extraction ###
 
 library(readxl)
 library(tidyverse)
