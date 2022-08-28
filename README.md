@@ -11,6 +11,7 @@ Many more sources included R.package descriptions and websites, but these were a
 I extracted 5 case study countries per study. > 5 case study countries were referred to as "Many" in the country table or "Different research areas" in the "Continent"- table instead of listing all countries sperately. These case studies partly contained very many areas and were therefore referred to in this way (also in the excel sheet). For this reason, I also did not include these in the design of the maps.
 I also extracted two main topics per scientific resource.
 Find the Find the numbered citations list here for more detailed information: https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
+Surces used to gather methodological knowledge within my thesis are marked orange, packages green, workforce literature bright blue and literature only used in the introduction or discussion gray. Internet sources are yellow. Further categories on the left side have more pastell color schemes.
 Furthermore, find the "Femiaculture" app here: https://github.com/AlexandraKrause/Femiaculture.
 
 Content list of this repository:
