@@ -75,6 +75,7 @@ And find HTML and URL overview in the "Graphics" section.
 
 # Topics:Education
 -> To overview methods used per topic for all 8 topics, see "Methods-per-topic.R". Here is an example for the topic "Education":
+
 ![education](https://user-images.githubusercontent.com/82711784/185979328-aa422ca2-e281-41d7-9cc3-bccfcf217d77.png)
 
 
