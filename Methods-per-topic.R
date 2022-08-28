@@ -48,7 +48,7 @@ Together <- Thesis %>%
 #methodological studies. The pie chart of Education topics only has 2 colors.
 
 Filtered <- Together %>% 
-  filter(Topics == "Social")
+  filter(Topics == "Nutrition")
 
 count(Filtered)
 
@@ -88,14 +88,14 @@ Method_Extraction <- pie(n_method$n, labels = n_method$Method,
 #labels for each slice. 
 
 cols <- c("Quantitative" = "thistle", "Qualitative" = "pink3",
-          "Methodological" = "plum4", "Mixed" = "lightpink2")
+          "Mixed" = "lightpink2")
 Method_Extraction <- n_method %>% 
   ggplot(aes(x = "", y =perc, fill = Method)) +
   geom_col() +
   geom_label(aes(label = label), color = c("gray10","gray10","gray10"), 
              position = position_stack(vjust = 0.5),
              show.legend = FALSE) +
-  guides(fill = guide_legend(title = 'Used Methods; Topic "Social"')) +
+  guides(fill = guide_legend(title = 'Used Methods; Topic "Nutrition"')) +
   coord_polar(theta = "y")+
   theme_void()+
   scale_fill_manual(values = cols)
