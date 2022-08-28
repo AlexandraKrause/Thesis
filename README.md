@@ -33,7 +33,7 @@ And find HTML and URL overview in the "Graphics" section.
 
 # Methodologies
 -> A pie chart shows the used methodologies found during my literature research.
-![used-methods](https://user-images.githubusercontent.com/82711784/185979197-9a1661b6-7b7f-4dfa-9c55-299e1e268379.png)
+![used methods within stuides](https://user-images.githubusercontent.com/82711784/187078507-9020dcc5-61c9-4de6-922c-9b662edb40fa.png)
 
 
 # In comparison: Number of cited studies per methodology of Pyburn & van Eerdewijk (2021)
@@ -71,7 +71,7 @@ And find HTML and URL overview in the "Graphics" section.
 # Topics
 -> I extracted one to two main topics per scientific resource. I found 8 topic areas and studies containing "many" differnt topic to similar amounts. This distribution shows how often which main topics were present within the literature research. These areas can also be found in my detailed Decision Analysis impact pathway.
 
-![main topic](https://user-images.githubusercontent.com/82711784/185979294-3758006f-0da5-4874-bddd-cbf52d220f56.png)
+![main topics](https://user-images.githubusercontent.com/82711784/187078512-1671037d-a37a-48f0-9b5e-1b6e66ef1171.png)
 
 
 # Topics:Education
