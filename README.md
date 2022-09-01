@@ -29,7 +29,7 @@ Content list of this repository:
 https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
 And find HTML and URL overview in the "Graphics" section.
 
-![Extended-Decision-Analysis-Impact-Pathway-Alexandra-Krause drawio](https://user-images.githubusercontent.com/82711784/187879865-1da8153f-7f8c-4a19-801b-7caf90741c54.png)
+![Extended-Decision-Analysis-Impact-Pathway-Alexandra-Krause drawio](https://user-images.githubusercontent.com/82711784/187901591-5e4c0143-eb3d-4de9-b894-bb7f17872d33.png)
 
 
 # Methodologies
