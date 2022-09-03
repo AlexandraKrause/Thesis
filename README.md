@@ -25,7 +25,7 @@ Content list of this repository:
 - methods-excel.xls: Excel sheet of the used sources within the thesis
 
 # Complete visual model
--> This is the detailed Decision Analysis Impact Pathway, built by literature review and conference attendance. The numbers represent the sources you can find in the excel sheet. Find the numbered citations list here:
+-> This is the extensive Decision Analysis Impact Pathway, built by literature review and conference attendance. The numbers represent the sources you can find in the excel sheet. Find the numbered citations list here:
 https://github.com/AlexandraKrause/Thesis/blob/main/methods-excel.xlsx
 And find HTML and URL overview in the "Graphics" section.
 
