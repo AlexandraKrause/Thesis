@@ -45,23 +45,9 @@ And find HTML and URL overview in the "Graphics" section.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-
-# Continent table
--> this table shows the  number of studies per continent.
-![table2](https://user-images.githubusercontent.com/82711784/186690970-7885a0f3-ee04-4107-bda7-bcf0df293cd7.png)
-
-
-
 # Continent pie chart
 -> This pie chart represents the number of studies per continent, which were included in my model.
 ![continents](https://user-images.githubusercontent.com/82711784/185958037-0532fa1b-15f6-4f91-9b0d-2f5fd16c5ec4.png)
-
-
-# Country table
--> This table shows the 15 most researched countries. "General" refers to scientific sources researching a topic more "generalized" than by using case studies.
-
-![table1](https://user-images.githubusercontent.com/82711784/186691230-b526d1eb-af3d-428a-bf0d-feebbbb2cccb.png)
-
 
 
 # Country map
