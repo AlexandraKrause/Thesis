@@ -45,10 +45,6 @@ And find HTML and URL overview in the "Graphics" section.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-# Continent pie chart
--> This pie chart represents the number of studies per continent, which were included in my model.
-![continents](https://user-images.githubusercontent.com/82711784/185958037-0532fa1b-15f6-4f91-9b0d-2f5fd16c5ec4.png)
-
 
 # Country map
 -> This map shows in which countries the observed research took place:
